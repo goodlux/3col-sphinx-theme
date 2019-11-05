@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI","Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -61,7 +61,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI","Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -82,7 +82,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 h2, .h2 {
@@ -5375,7 +5375,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI","Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5477,7 +5477,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI","Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9437,7 +9437,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #f8f8f8;
 }
 
-@font-face {
+/* @font-face {
   font-family: FreightSans;
   font-weight: 700;
   font-style: normal;
@@ -9484,7 +9484,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/FreightSans/freight-sans-book.woff2") format("woff2"), url("../fonts/FreightSans/freight-sans-book.woff") format("woff");
-}
+} */
 @font-face {
   font-family: IBMPlexMono;
   font-weight: 600;
@@ -9530,14 +9530,14 @@ html {
 }
 
 body {
-  font-family: FreightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Roboto, FreightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 a:link,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: #e44c2c;
+  color: #b50707;
 }
 
 a.with-right-arrow, .btn.with-right-arrow {
@@ -9557,23 +9557,23 @@ a.with-right-arrow, .btn.with-right-arrow {
 }
 
 ::-webkit-input-placeholder {
-  color: #e44c2c;
+  color: #b50707;
 }
 
 ::-moz-placeholder {
-  color: #e44c2c;
+  color: #b50707;
 }
 
 :-ms-input-placeholder {
-  color: #e44c2c;
+  color: #b50707;
 }
 
 :-moz-placeholder {
-  color: #e44c2c;
+  color: #b50707;
 }
 
 .email-subscribe-form input.email {
-  color: #e44c2c;
+  color: #b50707;
   border: none;
   border-bottom: 1px solid #939393;
   width: 100%;
@@ -9615,7 +9615,7 @@ a.with-right-arrow, .btn.with-right-arrow {
 }
 
 .cleartext-article #table-of-contents {
-  display: none;
+  /*display: none;*/
 }
 
 code, kbd, pre, samp {
@@ -9793,7 +9793,7 @@ pre {
 .header-holder .main-menu ul li.active:after {
   content: "•";
   bottom: -24px;
-  color: #e44c2c;
+  color: #b50707;
   font-size: 1.375rem;
   left: 0;
   position: absolute;
@@ -9801,7 +9801,7 @@ pre {
   text-align: center;
 }
 .header-holder .main-menu ul li.active a {
-  color: #e44c2c;
+  color: #b50707;
 }
 .header-holder .main-menu ul li:last-of-type {
   margin-right: 0;
@@ -9816,7 +9816,7 @@ pre {
 }
 @media screen and (min-width: 1100px) {
   .header-holder .main-menu ul li a:hover {
-    color: #e44c2c;
+    color: #b50707;
   }
 }
 
@@ -9871,7 +9871,7 @@ pre {
   text-decoration: none;
 }
 .mobile-main-menu.open ul li.active a {
-  color: #e44c2c;
+  color: #b50707;
 }
 
 .main-menu-close-button {
@@ -9942,7 +9942,7 @@ pre {
 }
 @media screen and (min-width: 768px) {
   .site-footer a:hover {
-    color: #e44c2c;
+    color: #b50707;
   }
 }
 
@@ -9962,10 +9962,10 @@ pre {
 }
 .docs-tutorials-resources p {
   color: #929292;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 .docs-tutorials-resources h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   letter-spacing: -0.25px;
   text-transform: none;
   margin-bottom: 0.25rem;
@@ -10004,7 +10004,7 @@ pre {
 }
 .docs-tutorials-resources a {
   font-size: 1.125rem;
-  color: #e44c2c;
+  color: #b50707;
 }
 .docs-tutorials-resources a:hover {
   color: #ffffff;
@@ -10122,15 +10122,16 @@ article.cleartext-article h6 {
   color: #262626;
 }
 article.cleartext-article h2 {
-  font-size: 1.625rem;
-  letter-spacing: 1.33px;
+  font-size: 1.75rem;
+  letter-spacing: 1.25px;
   line-height: 2rem;
   text-transform: none;
 }
 article.cleartext-article h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   letter-spacing: -0.25px;
   line-height: 1.875rem;
+  text-decoration: underline;
   text-transform: none;
 }
 article.cleartext-article h4,
@@ -10140,16 +10141,21 @@ article.cleartext-article h6 {
   letter-spacing: -0.19px;
   line-height: 1.875rem;
 }
+
+
 article.cleartext-article p {
   margin-bottom: 1.125rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  letter-spacing: 0.01px;
 }
-article.cleartext-article p,
+
 article.cleartext-article ul li,
 article.cleartext-article ol li,
 article.cleartext-article dl dt,
 article.cleartext-article dl dd,
 article.cleartext-article blockquote {
-  font-size: 1rem;
   line-height: 1.375rem;
   color: #262626;
   letter-spacing: 0.01px;
@@ -10245,7 +10251,7 @@ p {
 p a:link,
 p a:visited,
 p a:hover {
-  color: #e44c2c;
+  color: #b50707;
   text-decoration: none;
 }
 @media screen and (min-width: 768px) {
@@ -10336,11 +10342,11 @@ ul.cleartext-breadcrumbs a {
   display: none;
 }
 .rst-content footer .helpful-container .helpful-question.yes-link, .rst-content footer .helpful-container .helpful-question.no-link {
-  color: #e44c2c;
+  color: #b50707;
   cursor: pointer;
 }
 .rst-content footer .helpful-container .helpful-question.yes-link:hover, .rst-content footer .helpful-container .helpful-question.no-link:hover {
-  background-color: #e44c2c;
+  background-color: #b50707;
   color: #ffffff;
 }
 .rst-content footer div[role="contentinfo"] {
@@ -10351,10 +10357,10 @@ ul.cleartext-breadcrumbs a {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.25rem;
   letter-spacing: 1.78px;
   line-height: 2.5rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin: 1.375rem 0;
 }
 
@@ -10462,11 +10468,12 @@ article.cleartext-article .sphx-glr-thumbcontainer {
   }
 }
 article.cleartext-article .sphx-glr-thumbcontainer .caption-text a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #262626;
   letter-spacing: 0;
   line-height: 1.5rem;
   text-decoration: none;
+  font-weight: bolder;
 }
 article.cleartext-article .sphx-glr-thumbcontainer:hover {
   -webkit-box-shadow: none;
@@ -10502,7 +10509,7 @@ article.cleartext-article .sphx-glr-thumbcontainer .figure a.reference.internal 
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #e44c2c;
+    background-color: #b50707;
     -webkit-transition: width .250s ease-in-out;
     transition: width .250s ease-in-out;
   }
@@ -10541,7 +10548,7 @@ article.cleartext-article .function dt em.property, article.cleartext-article .a
   font-family: inherit;
 }
 article.cleartext-article .function dt em, article.cleartext-article .attribute dt em, article.cleartext-article .class .attribute dt em, article.cleartext-article .class dt em, article.cleartext-article .function dt .sig-paren, article.cleartext-article .attribute dt .sig-paren, article.cleartext-article .class dt .sig-paren {
-  font-family: IBMPlexMono,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-family: Roboto, IBMPlexMono,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   font-size: 87.5%;
 }
 article.cleartext-article .function dt a, article.cleartext-article .attribute dt a, article.cleartext-article .class .attribute dt a, article.cleartext-article .class dt a {
@@ -10919,7 +10926,7 @@ article.cleartext-article .admonition > p:last-of-type {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #e44c2c;
+    background-color: #b50707;
     -webkit-transition: width .250s ease-in-out;
     transition: width .250s ease-in-out;
   }
@@ -10951,7 +10958,7 @@ article.cleartext-article .admonition > p:last-of-type {
   color: #262626;
 }
 .cleartext-article div.sphx-glr-download a code, .cleartext-article div.sphx-glr-download a kbd, .cleartext-article div.sphx-glr-download a pre, .cleartext-article div.sphx-glr-download a samp, .cleartext-article div.sphx-glr-download a span.pre {
-  font-family: FreightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Roboto, FreightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .cleartext-article p.sphx-glr-script-out {
@@ -11035,7 +11042,7 @@ img.previous-page {
 }
 
 article.cleartext-article blockquote {
-  margin-left: 3.75rem;
+  margin-left: 2rem;
   color: #6c6c6d;
 }
 
@@ -11175,7 +11182,7 @@ a:hover {
   cursor: pointer;
 }
 .cleartext-call-to-action-links a:hover {
-  color: #e44c2c;
+  color: #b50707;
 }
 .cleartext-call-to-action-links a .call-to-action-desktop-view {
   display: none;
@@ -11207,8 +11214,8 @@ a:hover {
 }
 .cleartext-call-to-action-links a #google-colab-link:hover, .cleartext-call-to-action-links a #download-notebook-link:hover,
 .cleartext-call-to-action-links a #github-view-link:hover {
-  border-bottom-color: #e44c2c;
-  color: #e44c2c;
+  border-bottom-color: #b50707;
+  color: #b50707;
 }
 
 .cleartext-container {
@@ -11517,7 +11524,7 @@ a:hover {
 .cleartext-right-menu a:visited,
 .cleartext-right-menu a:hover {
   color: #6c6c6d;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1rem;
   padding: 0;
   text-decoration: none;
@@ -11530,6 +11537,7 @@ a:hover {
 .cleartext-right-menu a:hover.reference.internal {
   margin-bottom: 0.3125rem;
   position: relative;
+  font-size: 1rem;
 }
 .cleartext-left-menu li code,
 .cleartext-right-menu li code {
@@ -11667,7 +11675,7 @@ a:hover {
 }
 .cleartext-right-menu li.active > a:after {
   content: "\2023";
-  color: #e44c2c;
+  color: #b50707;
   display: inline-block;
   font-size: 1.375rem;
   left: -17px;
@@ -11922,7 +11930,7 @@ a:hover {
   border-bottom-color: transparent;
 }
 .main-menu ul li .dropdown-menu .dropdown-item:hover {
-  background-color: #e44c2c;
+  background-color: #b50707;
 }
 .main-menu ul li .dropdown-menu .dropdown-item p {
   font-size: 1rem;
@@ -11988,7 +11996,7 @@ a:hover {
   border-bottom-color: transparent;
 }
 .header-holder .main-menu ul li a.nav-dropdown-item:hover {
-  background-color: #e44c2c;
+  background-color: #b50707;
   color: white;
 }
 .header-holder .main-menu ul li a.nav-dropdown-item .dropdown-title {
@@ -11999,7 +12007,7 @@ a:hover {
 }
 
 .header-holder .main-menu ul li a.nav-dropdown-item:hover .dropdown-title {
-  background-color: #e44c2c;
+  background-color: #b50707;
   color: white;
 }
 

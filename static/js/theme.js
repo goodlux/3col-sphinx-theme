@@ -445,7 +445,7 @@ window.sideMenus = {
       document.getElementById("cleartext-shortcuts-wrapper").style.display = "block";
 
       // We are hiding the titles of the pages in the right side menu but there are a few
-      // pages that include other pages in the right side menu (see 'torch.nn' in the docs)
+      // pages that include other pages in the right side menu
       // so if we exclude those it looks confusing. Here we add a 'title-link' class to these
       // links so we can exclude them from normal right side menu link operations
       var titleLinks = document.querySelectorAll(
